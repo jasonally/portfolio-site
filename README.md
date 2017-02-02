@@ -4,14 +4,14 @@
 This project uses concepts in Udacity's Intro to HTML and CSS, Responsive Web Design Fundamentals, and Responsive Images courses to build a mock portfolio page. The page has both responsive design and images. The page dynamically resizes using Bootstrap and downloads the appropriate images based on viewport width.
 
 ### Directory Contents
-`css/` - Contains the default Boostrap CSS files as well as styles.css, which provides custom CSS formatting for the page.
-`images/` - Contains the images used on the page. The resized images were created using Grunt.
-`images_src/` - Contains the source images used on the page, which were then resized appropriately using Grunt.
-`js/` - Contains the Bootstrap and jQuery JavaScript used on the page, including the modals on the portfolio images.
-`config.json` - Contains Bootstrap JavaScript data.
-`Gruntfile.js` - The JavaScript file used to resize the images saved in images/.
-`index.html` - Contains the HTML for the portfolio site.
-`package.json` - Contains package information used by Gruntfile.js to resize images.
+1. `css/` - Contains the default Boostrap CSS files as well as styles.css, which provides custom CSS formatting for the page.
+2. `images/` - Contains the images used on the page. The resized images were created using Grunt.
+3. `images_src/` - Contains the source images used on the page, which were then resized appropriately using Grunt.
+4. `js/` - Contains the Bootstrap and jQuery JavaScript used on the page, including the modals on the portfolio images.
+5. `config.json` - Contains Bootstrap JavaScript data.
+6. `Gruntfile.js` - The JavaScript file used to resize the images saved in images/.
+7. `index.html` - Contains the HTML for the portfolio site.
+8. `package.json` - Contains package information used by Gruntfile.js to resize images.
 
 
 ### How to view the page
@@ -24,8 +24,3 @@ This project uses concepts in Udacity's Intro to HTML and CSS, Responsive Web De
 
 ### How to use Grunt to resize images
 This directory may not include the `node_modules/` folder needed to resize pictures at scale. To create the folder, use Terminal to navigate to the directory and run npm install. This will then allow you to use Gruntfile.js to create resized images. For more information on how to start using Grunt, click [here](https://24ways.org/2013/grunt-is-not-weird-and-hard/).
-
-### Creator
-Jason Ally
-https://github.com/jasonally/
-jason[dot]ally[at]gmail.com
