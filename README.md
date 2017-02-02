@@ -4,7 +4,6 @@
 This project uses concepts in Udacity's Intro to HTML and CSS, Responsive Web Design Fundamentals, and Responsive Images courses to build a mock portfolio page. The page has both responsive design and images. The page dynamically resizes using Bootstrap and downloads the appropriate images based on viewport width.
 
 ### Directory Contents
-In addition to this README.md file you will find:
 `css/` - Contains the default Boostrap CSS files as well as styles.css, which provides custom CSS formatting for the page.
 `images/` - Contains the images used on the page. The resized images were created using Grunt.
 `images_src/` - Contains the source images used on the page, which were then resized appropriately using Grunt.
