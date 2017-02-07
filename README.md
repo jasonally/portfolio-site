@@ -22,5 +22,7 @@ This project uses concepts in Udacity's Intro to HTML and CSS, Responsive Web De
 5. Open your browser and navigate to http://127.0.0.1:8000 to view the page.
 6. Use Developer Tools to resize the page to different viewports. Reload the page and use Developer Tools to see different images loading based on different page widths.
 
+Additionally, this page is on the web at jasonally-fsnd-portfolio.appspot.com.
+
 ### How to use Grunt to resize images
 This directory may not include the `node_modules/` folder needed to resize pictures at scale. To create the folder, use Terminal to navigate to the directory and run npm install. This will then allow you to use Gruntfile.js to create resized images. For more information on how to start using Grunt, click [here](https://24ways.org/2013/grunt-is-not-weird-and-hard/).
