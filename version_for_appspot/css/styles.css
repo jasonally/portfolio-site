@@ -1,0 +1,57 @@
+/*
+Body color set per mock PDF and typeface set to Lato.
+*/
+body {
+    font-family: 'Lato', sans-serif;
+    color: #2D3C49;
+    font-weight: 400;
+}
+
+/*
+Bar color set per mock PDF.
+*/
+hr {
+    background-color: #7D97AD;
+    height: 5px;
+}
+
+/*
+Mobile-friendly point size.
+*/
+p {
+    font-size: 16px;
+}
+
+/*
+Container has a max width even for widescreen displays.
+*/
+.container-fluid {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+Color attribute probably not necessary since image
+is a SVG, but including it per the mock PDF anyway.
+*/
+.title-logo {
+    margin-top: 20px;
+    max-width: 20%;
+    color: #02B3E4;
+}
+
+/*
+Color set per mock PDF.
+*/
+.text-muted {
+    color: #7D97AD;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 60px;
+}
